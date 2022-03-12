@@ -1,0 +1,33 @@
+footer{
+    font-family: $font-text;
+    background-color: gray;
+    .base-footer{
+        padding-left: 20px;
+    }
+}
+
+.foot-logo p{
+    font-family: $font-title;
+    font-size: larger;
+    color: white;
+    padding: 25px 0 25px 0px;
+}
+
+.foot-nav p{
+    font-family: $font-text;
+    font-weight: 600;
+    color: white;
+}
+
+ul{
+    padding-bottom: 30px;
+    li{
+        display: flex;
+        margin-bottom: 10px;
+        i{
+            width: 15px;
+            margin-right: 10px;
+            color: white;
+        }   
+    }
+}

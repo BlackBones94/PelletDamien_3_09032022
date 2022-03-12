@@ -52,6 +52,52 @@ table {
   border-spacing: 0;
 }
 
+.btn-exp {
+  width: 200px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #FF79DA;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 95%;
+  border: none;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  background-color: gray;
+}
+footer .base-footer {
+  padding-left: 20px;
+}
+
+.foot-logo p {
+  font-family: "Shrikhand", cursive;
+  font-size: larger;
+  color: white;
+  padding: 25px 0 25px 0px;
+}
+
+.foot-nav p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+ul {
+  padding-bottom: 30px;
+}
+ul li {
+  display: flex;
+  margin-bottom: 10px;
+}
+ul li i {
+  width: 15px;
+  margin-right: 10px;
+  color: white;
+}
+
 body {
   width: 100%;
   margin: 0 auto;

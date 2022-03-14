@@ -215,4 +215,30 @@ body {
   width: 300px;
 }
 
+.box-select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+.box-select .select {
+  width: 90%;
+  height: 40px;
+  background-color: dodgerblue;
+}
+.box-select .select .nav-bar {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+.box-select .select .nav-bar span {
+  border: 1px solid black;
+  border-radius: 50px;
+  position: relative;
+  right: 40px;
+}
+.box-select .select .nav-bar i {
+  position: relative;
+}
+
 /*# sourceMappingURL=style.css.map */

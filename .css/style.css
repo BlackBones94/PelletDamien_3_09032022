@@ -64,6 +64,69 @@ table {
   border: none;
 }
 
+h2 {
+  padding: 20px 0px 20px 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.card-mericourt {
+  padding-bottom: 50px;
+}
+
+.card {
+  padding-bottom: 20px;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  width: 90%;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.hover-card {
+  align-items: flex-start;
+  background-color: aqua;
+  width: 90%;
+  height: 70px;
+  border-radius: 0px 0px 20px 20px;
+}
+.hover-card p {
+  font-family: "Roboto", sans-serif;
+  margin-left: 8px;
+}
+
+.hover-icone {
+  display: flex;
+  justify-content: space-between;
+}
+.hover-icone strong {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-left: 8px;
+}
+.hover-icone i {
+  font-size: x-large;
+  position: relative;
+  right: 30px;
+  top: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+img {
+  width: 90%;
+  height: 80%;
+}
+
 footer {
   font-family: "Roboto", sans-serif;
   background-color: gray;

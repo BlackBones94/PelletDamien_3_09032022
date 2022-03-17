@@ -78,12 +78,13 @@ h2 {
 .card {
   padding-bottom: 20px;
   width: 100%;
-  height: 90%;
+  height: 315px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .card img {
+  object-fit: cover;
   width: 90%;
   justify-items: center;
   justify-content: center;
@@ -100,7 +101,7 @@ h2 {
 }
 .hover-card p {
   font-family: "Roboto", sans-serif;
-  margin-left: 8px;
+  margin-left: 10px;
 }
 
 .hover-icone {
@@ -111,7 +112,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   margin-top: 15px;
-  margin-left: 8px;
+  margin-left: 10px;
 }
 .hover-icone i {
   font-size: x-large;

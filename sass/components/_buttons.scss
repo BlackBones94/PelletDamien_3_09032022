@@ -1,11 +1,12 @@
 .btn-exp{
-    width: 200px;
-    height: 45px;
-    border-radius: 20px;
-    background-color: $secondary;
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    background: mix($primary,$secondary, 30%);
     color: white;
     font-family: $font-text;   
     font-weight: 500;
-    font-size: 95%;
+    font-size: 100%;
     border: none;
+    margin-top: 20px;
 }

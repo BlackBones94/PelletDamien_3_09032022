@@ -1,6 +1,6 @@
 footer{
     font-family: $font-text;
-    background-color: gray;
+    background-color: lighten($color: black, $amount: 20%);
     .base-footer{
         padding-left: 20px;
     }

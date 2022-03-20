@@ -1,0 +1,65 @@
+.contain-title{
+    display: flex;
+    justify-content: space-between;
+        h2{
+            font-family: $font-title;
+            font-size: xx-large;
+        }
+        i{
+            padding: 20px 40px 0px 0px;
+            font-size: x-large;
+        }
+}
+
+.enter, .plats , .dessert{
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.contain-card{
+    margin-bottom: 15px;
+    width: 90%;
+    height: 60px;
+    background-color: tomato;
+    border-radius: 15px;
+    position: relative;
+    left: 15px;
+    font-family: $font-text;
+    @include shadowbox;
+            strong{
+            padding-left: 10px;
+            padding-top: 5px;
+            position: relative;
+            top: 10px;
+            font-weight: 600;
+            font-size: large;
+        }
+}
+
+
+.contain-txt{
+    display: flex;
+    padding: 15px 0px 0px 10px;
+    justify-content: space-between;
+        p{
+            padding-right: 15px;
+            font-weight: bold;
+        }
+}
+
+h1{
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-family: $font-text;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 75px;
+}
+
+.contain-menu{
+    background-color: blue;
+    border-radius: 35px 35px 0px 0px ;
+}

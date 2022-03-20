@@ -3,3 +3,22 @@
         body: 100%;
     }
 }
+
+//BTN
+@mixin btn-form{
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    background: mix($primary,$secondary, 30%);
+    color: white;
+    font-family: $font-text;   
+    font-weight: 400;
+    font-size: 100%;
+    border: none;
+    margin-top: 20px;
+}
+
+//box shadow
+@mixin shadowbox{
+    box-shadow: 10px 5px 5px rgb(221, 221, 221);
+}

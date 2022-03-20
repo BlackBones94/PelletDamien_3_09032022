@@ -1,13 +1,5 @@
 .btn-exp , .btn-menu{
-    width: 220px;
-    height: 50px;
-    border-radius: 25px;
-    background: mix($primary,$secondary, 30%);
-    color: white;
-    font-family: $font-text;   
-    font-weight: 500;
-    font-size: 100%;
-    border: none;
-    margin-top: 20px;
+    @include btn-form;
+    @include shadowbox;
 }
 

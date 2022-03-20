@@ -1,0 +1,55 @@
+body {
+    // min-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    // @include media-min{
+
+    // }
+
+    // @media screen and (min-width: 768px) {
+    //     width: 668px;
+    // }
+    // @media screen and (min-width: 1024px) {
+    //     width: 1300px;
+    // }
+}
+
+.map-head{
+    color: lighten($color: black, $amount: 30%);
+    background-color: darken($color: white, $amount: 8%);
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+        i{
+            margin-right: 15px;
+        }
+        p{
+            font-family: $font-text;
+            font-weight: 500;
+        }
+}
+
+.nav-head{
+    background-color: darken($color: white, $amount: 4%);
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+   
+        h3{
+            text-align: center;
+            padding-bottom: 10px;
+            font-family: $font-text;
+            font-size: x-large;
+            font-weight: 700;
+            width: 250px;
+        }
+        p{
+            color: darken($color: white, $amount: 45%);
+            text-align: center;
+            display: block;
+            font-family: $font-text;
+            padding-bottom: 20px;
+            width: 300px;
+        }
+}

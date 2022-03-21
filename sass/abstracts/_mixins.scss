@@ -22,3 +22,16 @@
 @mixin shadowbox{
     box-shadow: 10px 5px 5px rgb(221, 221, 221);
 }
+
+// Card menu 
+
+@mixin card-menu {
+    margin-bottom: 15px;
+    width: 90%;
+    height: 70px;
+    background-color: darken($color: white, $amount: 4%);
+    border-radius: 15px;
+    position: relative;
+    left: 15px;
+    font-family: $font-text;
+}

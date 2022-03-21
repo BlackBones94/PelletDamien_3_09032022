@@ -1,4 +1,5 @@
 h2{
+    
     padding: 20px 0px 20px 20px;
     font-family: $font-text;
     font-weight: bolder;
@@ -70,5 +71,37 @@ img{
 }
 
 .main-boss{
-    background-color: darken($color: white, $amount: 4%);
+    background-color: darken($color: white, $amount: 10%);
+}
+.card-mericourt{
+    background-color: darken($color: white, $amount: 10%);
+}
+.card-charonne{
+    background-color: darken($color: white, $amount: 10%);
+    padding-bottom: 10px;
+    
+}
+.card-rouge{
+    background-color: darken($color: white, $amount: 10%);
+}
+
+.hover-new{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    padding-top: 10px;
+    right: 50px;
+}
+.hover-new h3{
+    background-color: lighten($color: lightblue, $amount: 0%);
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-family: $font-text;
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(63, 129, 63);
 }

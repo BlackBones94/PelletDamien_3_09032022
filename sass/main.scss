@@ -1,10 +1,12 @@
 // ABSTRACTS
+@import './abstracts/keyframes';
 @import './abstracts/variables';
 @import './abstracts/mixins';
 // BASE
 @import './base/reset';
 @import './base/typography';
 //COMPONENTs
+@import './components/animations';
 @import './components/buttons';
 @import './components/cards';
 // LAYOUT
@@ -14,6 +16,15 @@
 // PAGES
 @import './pages/home';
 @import './pages/menu';
+
+.heart{
+    text-decoration: none;
+    font-size: 300%;
+}
+// ESSAYER DE METTRE UN BEFORE AVEC L ICONE QU I VA BIEN 
+
+
+
 
 
 // https://levelup.gitconnected.com/handle-media-breakpoints-in-angular-and-sass-b8cef4137747

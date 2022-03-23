@@ -1,0 +1,10 @@
+.fa-heart{
+    &:active{
+        content: '\f004';
+        font-family: "FontAwesome";
+        color: $primary;
+        transform:scaleX(1);
+        animation-name: progress-heart;
+        animation-duration: 500ms;
+    }
+}

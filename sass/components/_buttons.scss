@@ -1,5 +1,8 @@
 .btn-exp , .btn-menu{
     @include btn-form;
     @include shadowbox;
+        &:hover{
+            background-color: lighten($color: $secondary, $amount: 5%);
+        }
 }
 

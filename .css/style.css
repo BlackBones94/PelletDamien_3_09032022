@@ -1,3 +1,11 @@
+@keyframes progress-heart {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -52,18 +60,31 @@ table {
   border-spacing: 0;
 }
 
+.fa-heart:active {
+  content: "\f004";
+  font-family: "FontAwesome";
+  color: #9356DC;
+  transform: scaleX(1);
+  animation-name: progress-heart;
+  animation-duration: 500ms;
+}
+
 .btn-exp, .btn-menu {
   width: 220px;
   height: 50px;
   border-radius: 25px;
-  background: #df6fdb;
+  background: #FF79DA;
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 100%;
   border: none;
   margin-top: 20px;
+  cursor: pointer;
   box-shadow: 10px 5px 5px #dddddd;
+}
+.btn-exp:hover, .btn-menu:hover {
+  background-color: #ff93e1;
 }
 
 h2 {
@@ -96,7 +117,7 @@ h2 {
 
 .hover-card {
   align-items: flex-start;
-  background-color: aqua;
+  background-color: white;
   width: 90%;
   height: 70px;
   border-radius: 0px 0px 20px 20px;
@@ -167,6 +188,11 @@ img {
   font-size: medium;
   font-weight: 500;
   color: #3f813f;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 footer {
@@ -418,6 +444,11 @@ article img {
   width: 100%;
   height: 320px;
   object-fit: cover;
+}
+
+.heart {
+  text-decoration: none;
+  font-size: 300%;
 }
 
 /*# sourceMappingURL=style.css.map */

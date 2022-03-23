@@ -9,13 +9,14 @@
     width: 220px;
     height: 50px;
     border-radius: 25px;
-    background: mix($primary,$secondary, 30%);
+    background: $secondary;
     color: white;
     font-family: $font-text;   
     font-weight: 400;
     font-size: 100%;
     border: none;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 //box shadow
@@ -34,4 +35,5 @@
     position: relative;
     left: 15px;
     font-family: $font-text;
+    
 }

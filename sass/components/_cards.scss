@@ -35,7 +35,7 @@ h2{
 
 .hover-card{
     align-items: flex-start;
-    background-color: aqua;
+    background-color: white;
     width: 90%;
     height:70px;
     border-radius: 0px 0px 20px 20px; 
@@ -104,4 +104,9 @@ img{
     font-size: medium;
     font-weight: 500;
     color: rgb(63, 129, 63);
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }

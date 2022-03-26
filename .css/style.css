@@ -6,6 +6,38 @@
     transform: scale(1);
   }
 }
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+@keyframes body {
+  0% {
+    transform: translateX(-9999px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -67,6 +99,50 @@ table {
   transform: scaleX(1);
   animation-name: progress-heart;
   animation-duration: 500ms;
+}
+
+.lds-ellipsis {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #FF79DA;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  z-index: 0;
+}
+
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 1s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 1s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 1s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 1s infinite;
+}
+
+.anim-box {
+  animation: body 3000ms;
+  z-index: 0;
 }
 
 .btn-exp, .btn-menu {
@@ -190,7 +266,7 @@ img {
   color: #3f813f;
 }
 
-a {
+.link-card {
   text-decoration: none;
   color: black;
 }
@@ -235,6 +311,7 @@ ul li i {
   align-items: center;
   padding-top: 25px;
   padding-bottom: 10px;
+  background-color: white;
 }
 .logo-head a {
   position: relative;
@@ -370,7 +447,8 @@ body {
   font-size: xx-large;
 }
 .contain-title i {
-  padding: 20px 40px 0px 0px;
+  padding: 20px 0px 0px 0px;
+  margin-right: 40px;
   font-size: x-large;
 }
 
@@ -444,11 +522,6 @@ article img {
   width: 100%;
   height: 320px;
   object-fit: cover;
-}
-
-.heart {
-  text-decoration: none;
-  font-size: 300%;
 }
 
 /*# sourceMappingURL=style.css.map */

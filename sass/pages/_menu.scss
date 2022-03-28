@@ -9,6 +9,7 @@
             padding: 20px 0px 0px 0px;
             margin-right: 40px;
             font-size: x-large;
+            cursor: pointer;
         }
 }
 
@@ -20,6 +21,7 @@
 .contain-card{
     @include card-menu;
     @include shadowbox;
+    overflow: hidden;
             strong{
             padding-left: 10px;
             padding-top: 5px;
@@ -30,15 +32,46 @@
         }
 }
 
+
+.hid-card {
+    left: 100%;
+    position: relative;
+    transition: all .3s ease-out;
+    background: green;
+    height: 100%;
+    bottom: 55px;
+        i{
+            background-color: green;
+            color: white;
+            margin: auto;
+            align-items: center;
+            font-size: xx-large;
+            position: relative;
+            left: 25px;
+            top: 20px;
+            animation: menu 1s infinite linear; 
+        }
+        
+  }
+  
+  .contain-card:hover > .hid-card{
+    left: 80%;
+  }
+
+
 .contain-txt{
     display: flex;
     padding: 20px 0px 0px 10px;
     justify-content: space-between;
+    // width: 50%;
+
         p{
             padding-right: 15px;
             font-weight: bold;
         }
 }
+
+
 
 h1{
     padding-left: 15px;

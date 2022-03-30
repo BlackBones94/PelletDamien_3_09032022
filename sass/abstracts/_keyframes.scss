@@ -8,6 +8,15 @@
 }
 
 
+@keyframes loading-spinner {
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
 
   @keyframes lds-ellipsis1 {
     0% {

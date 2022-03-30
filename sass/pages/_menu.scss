@@ -40,7 +40,8 @@
     background: green;
     height: 100%;
     bottom: 55px;
-        i{
+    overflow: hidden;
+         i{
             background-color: green;
             color: white;
             margin: auto;
@@ -49,7 +50,7 @@
             position: relative;
             left: 25px;
             top: 20px;
-            animation: menu 1s infinite linear; 
+            animation: menu 1s linear ;
         }
         
   }
@@ -63,11 +64,14 @@
     display: flex;
     padding: 20px 0px 0px 10px;
     justify-content: space-between;
-    // width: 50%;
-
+     width: 90%;
+  
         p{
             padding-right: 15px;
             font-weight: bold;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 }
 

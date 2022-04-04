@@ -13,68 +13,106 @@
         }
 }
 
-.enter, .plats , .dessert{
-    margin-bottom: 35px;
-    margin-top: 15px;
+.title-menu{
+    margin-bottom: 10px;
+    margin-top: 35px;
 }
+
 
 .contain-card{
     @include card-menu;
     @include shadowbox;
-    overflow: hidden;
-            strong{
-            padding-left: 10px;
-            padding-top: 5px;
-            position: relative;
-            top: 10px;
-            font-weight: 600;
-            font-size: large;
+    &:hover{
+        cursor: pointer;
+        > .contain-card__hid-card{
+            // width: 10px;
+            width: 20%;
+            transform: translateX(0);
+            
+            i{
+                    transform: translateX(0) rotate(0deg);
+                }
         }
-}
-
-
-.hid-card {
-    left: 100%;
-    position: relative;
-    transition: all .3s ease-out;
-    background: green;
-    height: 100%;
-    bottom: 55px;
-    overflow: hidden;
-         i{
-            background-color: green;
-            color: white;
-            margin: auto;
-            align-items: center;
-            font-size: xx-large;
-            position: relative;
-            left: 25px;
-            top: 20px;
-            animation: menu 1s linear ;
+    }
+        &__description{
+            flex: 1;
+            // overflow: hidden;
+            // text-overflow: ellipsis;
+            // white-space: nowrap;
+            min-width: 20px;
+            > &__contain-txt{
+                display: flex;
+                min-width: 20px;
+            }
         }
-        
-  }
-  
-  .contain-card:hover > .hid-card{
-    left: 80%;
-  }
-
-
-.contain-txt{
-    display: flex;
-    padding: 20px 0px 0px 10px;
-    justify-content: space-between;
-     width: 90%;
-  
-        p{
-            padding-right: 15px;
-            font-weight: bold;
+         
+            &__description__name{
+                width: 100%;
+                padding-left: 10px;
+                position: relative;
+                top: 10px;
+                font-weight: 600;
+                font-size: large;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            
+        } 
+        &__description__contain-txt{
+            display:inline-flex;
+            padding: 20px 0px 0px 10px;
+            width: 100%;
+            min-width:90%;
+            text-overflow: ellipsis;  
             overflow: hidden;
-            text-overflow: ellipsis;
             white-space: nowrap;
+                h5{
+                    min-width: 90%;
+                    width: 100%;
+                }
+           
         }
-}
-
+                &__contain-txt__price{
+                    // display: inline-flex;
+                    // max-width: 100%;
+                    // min-width: 60%;
+                    // width: 10%;
+                    // text-align:right;
+                    font-weight: bold;
+                    text-overflow: ellipsis ;
+                    overflow: hidden;
+                    white-space: nowrap;  
+                }
+            &__hid-card {
+                display: flex;
+                width: 0%;
+                align-items: center;
+                // left: 100px;
+                transform-origin: right;
+                transform: translateX(100px);
+                transition: transform 700ms ease-in-out;
+                background: green;
+                padding-bottom: 40px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }            
+                    i{
+                        display: inline-block;
+                        transform: translate(100px) rotate(-360deg);
+                        transition: transform 900ms ease-in-out;
+                        background-color: green;
+                        color: white;
+                        font-size: xx-large;
+                        position: relative;
+                        left: 25px;
+                        top: 20px;
+                        
+                    } 
+            }
+              
+ 
+ 
 
 
 h1{
@@ -86,12 +124,13 @@ h1{
 .btn-box{
     display: flex;
     justify-content: center;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 
 .contain-menu{
     background-color: darken($color: white, $amount: 10%);
-    border-radius: 35px 35px 0px 0px ;
+    border-radius: 35px;
+  
 }
 
 article{
@@ -106,6 +145,8 @@ article img{
 .contain-box{
     position: relative;
     bottom: 35px;
+    // left: 35px;
+    // border-radius: 35px;
 }
 
 .img-menu-2{
@@ -113,3 +154,5 @@ article img{
     height: 320px;
     object-fit: cover;
 }
+
+

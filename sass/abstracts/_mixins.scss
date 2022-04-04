@@ -27,6 +27,7 @@
 // Card menu 
 
 @mixin card-menu {
+    display:flex;
     margin-bottom: 15px;
     width: 90%;
     height: 70px;
@@ -35,5 +36,97 @@
     position: relative;
     left: 15px;
     font-family: $font-text;
-    
+    overflow: hidden;
 }
+
+// media queries
+
+@mixin media-tall {
+    @media screen and ( min-width: $desktop) {
+        // HEADER
+           .logo-head img{ 
+              width: 20%;
+           }
+
+        //section
+           section{
+               display: flex;
+               justify-content: center;
+           }
+           
+           .box-select{
+               width: 30%;
+           }
+
+           .select , .compose , .taste{
+               width: 100%;
+               .fa-mobile-screen-button{
+                  right:16%;
+               }
+           }
+           // main index
+
+           main h2{
+               text-align: center;
+           }
+           .main-boss{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+           }
+           .main-boss h2{
+               padding: 30px 0px 30px 0px;
+           }
+
+           .card-mericourt{
+            padding-bottom: 0px;
+            width: 17.5%;
+            }
+
+            .card-charonne{
+            background-color: darken($color: white, $amount: 10%);
+            padding-bottom: 0px;
+            width: 17.5%;
+            position: relative;
+            bottom: 19px;
+            // height pour les hover new
+            // height: 150px;
+                .hover-card{
+                    
+                }
+             
+            }
+
+            .card-menilmontant{
+                position: relative;
+                bottom: 19px;
+            }
+
+           .card{
+               width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .hover-new{
+                display: flex;
+                justify-content: center;
+                position: relative;
+                top: 50px;
+                left: 25%;
+            }
+            // FOOTER
+
+            footer{
+                .foot-logo p {
+                    font-size: xx-large;
+                    text-align: center;
+                }
+                ul{
+                    font-size: large;
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+        }
+}
+

@@ -67,5 +67,15 @@
     z-index: 1;
 }
 
+ .enter{
+   
+   animation: swipe-menu 2s;
+ }
+
+ .plats{
+   animation: swipe-menu 4s;
+ }
  
- 
+ .dessert{
+   animation: swipe-menu 6s;
+ }

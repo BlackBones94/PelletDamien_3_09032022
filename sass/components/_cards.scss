@@ -1,9 +1,10 @@
 h2{
-    
+    background-color: #e6e6e6;
     padding: 20px 0px 20px 20px;
     font-family: $font-text;
     font-weight: bolder;
     font-size: x-large;
+    // text-align: center;
 }
 
 .card-mericourt{
@@ -37,11 +38,12 @@ h2{
     align-items: flex-start;
     background-color: white;
     width: 90%;
-    height:70px;
+    height:20%;     
     border-radius: 0px 0px 20px 20px; 
     p{
         font-family: $font-text;
         margin-left: 10px;
+        margin-bottom: 10px;
     }      
 }
 

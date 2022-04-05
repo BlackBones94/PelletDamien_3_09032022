@@ -48,6 +48,11 @@
               width: 20%;
            }
 
+           .logo-head a{
+               right: 35%;
+               font-size: xx-large;
+           }
+
         //section
            section{
                display: flex;
@@ -127,6 +132,50 @@
                     justify-content: space-around;
                 }
             }
+            // ARTICLE
+
+            article img{
+                position: relative;
+                left: 25%;
+                object-fit: cover;
+                width: 50%;
+                height: 450px;
+            }
+
+            .img-menu-2{
+                width: 50%;
+                height: 450px;
+                object-fit: cover;
+            }
+
+            .contain-title{
+                justify-content: center;
+                i{
+                    margin-left: 50px;
+                    font-size: x-large;
+                }
+            }
+
+            // title menu
+
+            .title-menu{
+                width: 100%;
+                &__border{  
+                    margin-left: 30.5%;
+                }
+            h1{
+                display: flex;
+                justify-content: start;
+                padding-left: 30.5%;
+            }
+        }   
+            // card-menu
+
+            .contain-card{
+                width: 40%;
+                left:  30%;
+            }
+
         }
 }
 

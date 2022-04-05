@@ -663,6 +663,11 @@ article img {
     width: 20%;
   }
 
+  .logo-head a {
+    right: 35%;
+    font-size: xx-large;
+  }
+
   section {
     display: flex;
     justify-content: center;
@@ -732,6 +737,45 @@ article img {
     font-size: large;
     display: flex;
     justify-content: space-around;
+  }
+
+  article img {
+    position: relative;
+    left: 25%;
+    object-fit: cover;
+    width: 50%;
+    height: 450px;
+  }
+
+  .img-menu-2 {
+    width: 50%;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  .contain-title {
+    justify-content: center;
+  }
+  .contain-title i {
+    margin-left: 50px;
+    font-size: x-large;
+  }
+
+  .title-menu {
+    width: 100%;
+  }
+  .title-menu__border {
+    margin-left: 30.5%;
+  }
+  .title-menu h1 {
+    display: flex;
+    justify-content: start;
+    padding-left: 30.5%;
+  }
+
+  .contain-card {
+    width: 40%;
+    left: 30%;
   }
 }
 

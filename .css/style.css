@@ -323,7 +323,7 @@ img {
 }
 
 .hover-new h3 {
-  background-color: lightblue;
+  background-color: #99E2D0;
   height: 30px;
   width: 90px;
   display: flex;
@@ -333,7 +333,7 @@ img {
   font-family: "Roboto", sans-serif;
   font-size: medium;
   font-weight: 500;
-  color: #3f813f;
+  color: green;
 }
 
 .link-card {
@@ -514,6 +514,7 @@ body {
 .contain-title h2 {
   font-family: "Shrikhand", cursive;
   font-size: xx-large;
+  border-radius: 35px;
 }
 .contain-title i {
   padding: 20px 0px 0px 0px;
@@ -528,7 +529,7 @@ body {
   margin-top: 35px;
 }
 .title-menu__border {
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid #99E2D0;
   width: 40px;
   margin-left: 17px;
   position: relative;
@@ -605,7 +606,7 @@ body {
   transform-origin: right;
   transform: translateX(90px);
   transition: transform 1500ms ease-in-out;
-  background: green;
+  background: #99E2D0;
   padding-bottom: 40px;
   transition: width 900ms ease-in-out;
 }
@@ -613,7 +614,7 @@ body {
   display: inline-block;
   transform: translate(110px) rotate(-360deg);
   transition: transform 900ms ease-in-out;
-  background-color: green;
+  background-color: #99E2D0;
   color: white;
   font-size: xx-large;
   position: relative;
@@ -658,7 +659,7 @@ article img {
   object-fit: cover;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .logo-head img {
     width: 20%;
   }
@@ -674,7 +675,7 @@ article img {
   }
 
   .box-select {
-    width: 30%;
+    width: 25%;
   }
 
   .select, .compose, .taste {
@@ -776,6 +777,97 @@ article img {
   .contain-card {
     width: 40%;
     left: 30%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .logo-head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 5%;
+    background-color: white;
+  }
+  .logo-head a {
+    position: relative;
+    right: 30%;
+    font-size: x-large;
+    color: black;
+  }
+  .logo-head img {
+    width: 35%;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-select {
+    width: 70%;
+    padding-left: 40px;
+  }
+
+  main h2 {
+    text-align: center;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    z-index: 0;
+  }
+
+  .hover-new {
+    right: 170px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .img-menu-2 {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  article img {
+    object-fit: cover;
+    height: 300px;
+  }
+
+  .contain-title {
+    justify-content: center;
+  }
+  .contain-title i {
+    margin-left: 30px;
+  }
+
+  .contain-card {
+    width: 45%;
+    left: 28%;
+  }
+
+  .title-menu {
+    width: 100%;
+  }
+  .title-menu__border {
+    margin-left: 28.1%;
+  }
+  .title-menu h1 {
+    display: flex;
+    justify-content: start;
+    padding-left: 28%;
+  }
+
+  footer .foot-logo p {
+    font-size: xx-large;
+  }
+  footer ul {
+    font-size: large;
   }
 }
 

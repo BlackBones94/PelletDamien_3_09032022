@@ -60,7 +60,7 @@
            }
            
            .box-select{
-               width: 30%;
+               width: 25%;
            }
 
            .select , .compose , .taste{
@@ -163,12 +163,12 @@
                 &__border{  
                     margin-left: 30.5%;
                 }
-            h1{
+                 h1{
                 display: flex;
                 justify-content: start;
                 padding-left: 30.5%;
-            }
-        }   
+                }
+            }   
             // card-menu
 
             .contain-card{
@@ -179,3 +179,107 @@
         }
 }
 
+@mixin media-med {
+    @media screen and ( min-width: $tablet-up  ) and (max-width: #{$desktop - 1px}) {
+        
+        // header
+        .logo-head{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 10px;
+            padding-right: 5%;
+            background-color: white;
+                a {
+                    position: relative;
+                    right: 30%;
+                    font-size: x-large;
+                    color: black;
+                }
+                img {
+                    width: 35%;
+                }
+        }
+        
+        // section
+        section{
+            display: flex;
+            justify-content: center;
+        }
+
+        .box-select{
+            width: 70%;
+            padding-left: 40px;
+        }
+        // main-index
+
+        main h2{
+            text-align: center;
+        }
+
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 15%;
+            width: 70%;
+            z-index: 0;
+        }
+
+        .hover-new{
+            right:  170px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        // article
+
+        .img-menu-2{
+            height: 300px;
+            object-fit: cover;
+        }
+
+        article img{
+            object-fit: cover;
+            height: 300px;
+        }
+
+        .contain-title{
+            justify-content: center;
+            i{
+                margin-left: 30px;
+            }
+        }
+
+        
+        .contain-card{
+            width: 45%;
+            left:  28%;
+        }
+
+        .title-menu{
+            width: 100%;
+            &__border{  
+                margin-left: 28.1%;
+            }
+             h1{
+            display: flex;
+            justify-content: start;
+            padding-left: 28%;
+            }
+        }   
+       
+        // FOOTER
+
+        footer{
+            .foot-logo p {
+                font-size: xx-large;
+            }
+            ul{
+                font-size: large;
+            }
+        }
+    }
+}

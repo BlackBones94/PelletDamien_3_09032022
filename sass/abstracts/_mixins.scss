@@ -59,42 +59,33 @@
                text-align: center;
            }
            section{
-               display: flex;
-               justify-content: center;
-            //    flex-direction: column;
+            justify-content: center;
+            flex-direction:   column;         
+            align-items: center;
+            
            }
            
            .box-select{
                display: flex;
                justify-content: center;
-               width: 25%;
+               align-items: center;
+               flex-direction: column;
+               width: 100%;
+            //    padding-left: 38%
            }
 
-        //    .select{
-        //        .icone-span{
-        //            right: 9.5%;
-        //        }
-        //       i{
-        //           padding-left: 30px;
-        //       }
-        //    }
+           
 
            .select , .compose , .taste{
-               width: 100%;
+               width: 25%;
+                p{
+                   text-align: center;
+                   padding-left: 15%;
+                }
                .fa-mobile-screen-button{
                 //   right:16%;
                }
            }
-
-        //    .select {
-        //        .icone-span{
-        //            right: 38px;
-        //        }
-        //        p{
-        //         padding-left: 10px;
-        //     }
-        //    }
-           // main index
 
            main h2{
                text-align: center;
@@ -235,11 +226,22 @@
         }
 
         section h2{
-            display: flex;
+            text-align: center;
         }
         .box-select{
-            width: 75%;
-            padding-left: 50px;
+            width: 100%;
+            // padding-left: 50px;
+        }
+
+        .select , .compose , .taste{
+            width: 50%;
+             p{
+                text-align: center;
+                padding-left: 15%;
+             }
+            .fa-mobile-screen-button{
+             //   right:16%;
+            }
         }
         // main-index
 

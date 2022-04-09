@@ -9,7 +9,8 @@
     width: 220px;
     height: 50px;
     border-radius: 25px;
-    background: $secondary;
+    background: linear-gradient(-10deg, darken($primary, 10%), darken($secondary, 10%));
+    
     color: white;
     font-family: $font-text;   
     font-weight: 400;

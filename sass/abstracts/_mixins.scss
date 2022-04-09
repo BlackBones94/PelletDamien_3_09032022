@@ -102,12 +102,13 @@
            .card-mericourt{
             padding-bottom: 0px;
             width: 17.5%;
+            width: 342px;
             }
 
             .card-charonne{
             background-color: darken($color: white, $amount: 10%);
             padding-bottom: 0px;
-            width: 17.5%;
+            width: 342px;
             position: relative;
             bottom: 19px;
             // height pour les hover new
@@ -260,7 +261,7 @@
         }
 
         .hover-new{
-            right:  170px;
+            right:  20%;
             position: absolute;
             z-index: 1;
         }

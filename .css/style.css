@@ -253,7 +253,7 @@ h2 {
 }
 .card img {
   object-fit: cover;
-  width: 90%;
+  width: 95%;
   justify-items: center;
   justify-content: center;
   display: flex;
@@ -263,7 +263,7 @@ h2 {
 .hover-card {
   align-items: flex-start;
   background-color: white;
-  width: 90%;
+  width: 95%;
   height: 20%;
   border-radius: 0px 0px 20px 20px;
 }
@@ -700,12 +700,13 @@ article img {
   .card-mericourt {
     padding-bottom: 0px;
     width: 17.5%;
+    width: 342px;
   }
 
   .card-charonne {
     background-color: #e6e6e6;
     padding-bottom: 0px;
-    width: 17.5%;
+    width: 342px;
     position: relative;
     bottom: 19px;
   }
@@ -833,7 +834,7 @@ article img {
   }
 
   .hover-new {
-    right: 170px;
+    right: 20%;
     position: absolute;
     z-index: 1;
   }

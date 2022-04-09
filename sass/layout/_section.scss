@@ -27,18 +27,14 @@
             top: 35%;
              }
              i{
-                 width: 20px;
-                 height: 20px;
-                //  position: relative;
-                //  right: 15%;
-                 color: grey;
-                 font-size: x-large;
-                //  bottom: 5px;
+                width: 20px;
+                height: 20px;
+                color: grey;
+                font-size: x-large;
                 padding-left: 8%;
              }
              p{
                  padding-left: 4%;
-                // position: relative;
                  font-size: large;
                  font-family: $font-text;
                  font-weight: 600;
@@ -47,15 +43,12 @@
 }
 
 .icone-span{
-//   position: relative;
   right: 10%;
   width: 30px;
   height: 30px;
-//   border: 1px solid black;
   border-radius: 50px;
   bottom: 7px;
   background-color: $primary;
-  
     span{
         position: relative;
         left: 10px;
@@ -64,32 +57,3 @@
         font-family: $font-text;
     }
 }
-
-// .compose .icone-span{
-//     position: relative;
-//     right: 10.5%;
-// }
-
-// .compose i{
-//     position:relative;
-//     right: 17.5%;
-// }
-
-// .select .icone-span{
-//     left: -25px;
-// }
-// .select i{
-//     padding-left: 25px;
-// }
-// .select p{
-//     padding-left: 35px;
-// }
-
-// .compose p{
-//     padding-right: 8px;
-// }
-
-// .taste i {
-//     position: relative;
-//     right: 17.5%;
-// }

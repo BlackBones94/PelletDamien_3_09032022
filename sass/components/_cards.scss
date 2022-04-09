@@ -4,7 +4,6 @@ h2{
     font-family: $font-text;
     font-weight: bolder;
     font-size: x-large;
-    // text-align: center;
 }
 
 .card-mericourt{
@@ -20,7 +19,7 @@ h2{
     align-items: center;
         img{
             object-fit: cover;
-            width: 90%;
+            width: 95%;
             justify-items: center;
             justify-content: center;
             display: flex;
@@ -33,7 +32,7 @@ h2{
 .hover-card{
     align-items: flex-start;
     background-color: white;
-    width: 90%;
+    width: 95%;
     height:20%;     
     border-radius: 0px 0px 20px 20px; 
     p{

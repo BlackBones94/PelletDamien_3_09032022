@@ -68,13 +68,16 @@
            
            .box-select{
                display: flex;
-               justify-content: center;
-               align-items: center;
-               flex-direction: column;
+            //    justify-content: center;
+            //    align-items: center;
+               flex-direction: row;
                width: 100%;
            }
 
-           
+           .compose{
+               margin-left: 30px;
+               margin-right: 30px;
+           }
 
            .select , .compose , .taste{
                width: 25%;

@@ -692,10 +692,13 @@ article img {
 
   .box-select {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+  }
+
+  .compose {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .select, .compose, .taste {

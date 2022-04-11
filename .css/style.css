@@ -259,31 +259,29 @@ h2 {
   display: flex;
   border-radius: 20px 20px 0px 0px;
 }
-
-.hover-card {
+.card__hover-card {
   align-items: flex-start;
   background-color: white;
   width: 95%;
   height: 20%;
   border-radius: 0px 0px 20px 20px;
 }
-.hover-card p {
+.card__hover-card p {
   font-family: "Roboto", sans-serif;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-
-.hover-icone {
+.card__hover-card__hover-icone {
   display: flex;
   justify-content: space-between;
 }
-.hover-icone strong {
+.card__hover-card__hover-icone strong {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   margin-top: 15px;
   margin-left: 10px;
 }
-.hover-icone i {
+.card__hover-card__hover-icone i {
   font-size: x-large;
   position: relative;
   right: 30px;
@@ -321,7 +319,6 @@ img {
   padding-top: 10px;
   right: 50px;
 }
-
 .hover-new h3 {
   background-color: #99E2D0;
   height: 30px;
@@ -415,7 +412,7 @@ section h2 {
   padding-top: 20px;
   box-shadow: 10px 5px 5px #dddddd;
 }
-.select .nav-bar, .compose .nav-bar, .taste .nav-bar {
+.select__nav-bar, .compose__nav-bar, .taste__nav-bar {
   display: flex;
   justify-content: start;
   position: relative;
@@ -435,8 +432,7 @@ section h2 {
   font-weight: 600;
   text-align: center;
 }
-
-.icone-span {
+.select__nav-bar__icone-span, .compose__nav-bar__icone-span, .taste__nav-bar__icone-span {
   position: relative;
   right: 3%;
   width: 30px;
@@ -445,7 +441,7 @@ section h2 {
   bottom: 7px;
   background-color: #9356DC;
 }
-.icone-span span {
+.select__nav-bar__icone-span span, .compose__nav-bar__icone-span span, .taste__nav-bar__icone-span span {
   position: relative;
   left: 10px;
   top: 8px;
@@ -708,6 +704,7 @@ article img {
     text-align: center;
     padding-left: 15%;
   }
+
   main h2 {
     text-align: center;
   }
@@ -735,6 +732,7 @@ article img {
     position: relative;
     bottom: 19px;
   }
+
   .card-menilmontant {
     position: relative;
     bottom: 19px;
@@ -844,6 +842,7 @@ article img {
     text-align: center;
     padding-left: 15%;
   }
+
   main h2 {
     text-align: center;
   }

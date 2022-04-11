@@ -10,7 +10,6 @@
     height: 50px;
     border-radius: 25px;
     background: linear-gradient(-10deg, darken($primary, 10%), darken($secondary, 10%));
-    
     color: white;
     font-family: $font-text;   
     font-weight: 400;
@@ -68,8 +67,6 @@
            
            .box-select{
                display: flex;
-            //    justify-content: center;
-            //    align-items: center;
                flex-direction: row;
                width: 100%;
            }
@@ -85,9 +82,6 @@
                    text-align: center;
                    padding-left: 15%;
                 }
-               .fa-mobile-screen-button{
-                //   right:16%;
-               }
            }
 
            main h2{
@@ -114,12 +108,6 @@
             width: 342px;
             position: relative;
             bottom: 19px;
-            // height pour les hover new
-            // height: 150px;
-                .hover-card{
-                    
-                }
-             
             }
 
             .card-menilmontant{
@@ -234,7 +222,6 @@
         }
         .box-select{
             width: 100%;
-            // padding-left: 50px;
         }
 
         .select , .compose , .taste{
@@ -243,9 +230,6 @@
                 text-align: center;
                 padding-left: 15%;
              }
-            .fa-mobile-screen-button{
-             //   right:16%;
-            }
         }
         // main-index
 

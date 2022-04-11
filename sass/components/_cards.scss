@@ -24,43 +24,41 @@ h2{
             justify-content: center;
             display: flex;
             border-radius: 20px 20px 0px 0px;
+        }
+        &__hover-card{
+            align-items: flex-start;
+            background-color: white;
+            width: 95%;
+            height:20%;     
+            border-radius: 0px 0px 20px 20px; 
+            p{
+                font-family: $font-text;
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }   
+            &__hover-icone{
+                display: flex;
+                justify-content: space-between;
+              
+                strong{
+                    font-family: $font-text;
+                    font-weight: bolder;
+                    margin-top: 15px;
+                    margin-left: 10px;
+                }
+                i{
+                    font-size: x-large;
+                    position: relative;
+                    right: 30px;
+                    top: 5px;
+                    margin-top: 15px;
+                    cursor: pointer;
+                }
+            }
             
-
         }
 }
 
-.hover-card{
-    align-items: flex-start;
-    background-color: white;
-    width: 95%;
-    height:20%;     
-    border-radius: 0px 0px 20px 20px; 
-    p{
-        font-family: $font-text;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }      
-}
-
-.hover-icone{
-    display: flex;
-    justify-content: space-between;
-  
-    strong{
-        font-family: $font-text;
-        font-weight: bolder;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-    i{
-        font-size: x-large;
-        position: relative;
-        right: 30px;
-        top: 5px;
-        margin-top: 15px;
-        cursor: pointer;
-    }
-}
 
 img{
     width: 90%;
@@ -88,19 +86,19 @@ img{
     position: absolute;
     padding-top: 10px;
     right: 50px;
-}
-.hover-new h3{
-    background-color: $tertiary;
-    height: 30px;
-    width: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2px;
-    font-family: $font-text;
-    font-size: medium;
-    font-weight: 500;
-    color: green;
+    h3{
+        background-color: $tertiary;
+        height: 30px;
+        width: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        font-family: $font-text;
+        font-size: medium;
+        font-weight: 500;
+        color: green;
+    }
 }
 
 .link-card{

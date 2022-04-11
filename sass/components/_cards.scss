@@ -66,18 +66,18 @@ img{
 }
 
 .main-boss{
-    background-color: darken($color: white, $amount: 10%);
+    background-color: $card-color;
 }
 .card-mericourt{
-    background-color: darken($color: white, $amount: 10%);
+    background-color:$card-color;
 }
 .card-charonne{
-    background-color: darken($color: white, $amount: 10%);
+    background-color: $card-color;
     padding-bottom: 10px;
     
 }
 .card-rouge{
-    background-color: darken($color: white, $amount: 10%);
+    background-color:$card-color;
 }
 
 .hover-new{

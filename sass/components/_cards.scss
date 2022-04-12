@@ -10,10 +10,12 @@ h2{
     padding-bottom: 50px;
 }
 
+
+
 .card{
     padding-bottom: 30px;
     width: 100%;
-    height:300px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,11 +42,11 @@ h2{
                 display: flex;
                 justify-content: space-between;
               
-                strong{
+                a , strong{
                     font-family: $font-text;
                     font-weight: bolder;
                     margin-top: 15px;
-                    margin-left: 10px;
+                    margin-left: 5px;
                 }
                 i{
                     font-size: x-large;
@@ -59,9 +61,20 @@ h2{
         }
 }
 
+.link-img{
+        width: 100%;
+        height:80%;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        img{
+            width: 95%;
+            height: 100%;
+        }
+}
 
 img{
-    width: 90%;
+    width:90%;
     height: 80%;
 }
 
@@ -70,14 +83,17 @@ img{
 }
 .card-mericourt{
     background-color:$card-color;
+
 }
 .card-charonne{
     background-color: $card-color;
-    padding-bottom: 10px;
+    // padding-bottom: 10px;
+   
     
 }
 .card-rouge{
     background-color:$card-color;
+
 }
 
 .hover-new{
@@ -101,7 +117,10 @@ img{
     }
 }
 
-.link-card{
+.link-card {
     text-decoration: none;
     color: black;
 }
+
+
+

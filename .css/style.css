@@ -584,7 +584,7 @@ body {
   flex: 1;
   min-width: 20px;
 }
-> .contain-card__description__contain-txt {
+ .contain-card__description__contain-txt {
   display: flex;
 }
 .contain-card__description__name {

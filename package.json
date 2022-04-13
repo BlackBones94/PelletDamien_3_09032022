@@ -4,7 +4,7 @@
   "description": "\"site de gastronomy",
   "main": "index.js",
   "scripts": {
-    "sass": "sass  ./sass/main.scss:.css/style.css --watch"
+    "sass": "sass  ./sass/main.scss: css/style.css --watch"
   },
   "author": "\"Damien Pellet\"",
   "license": "ISC"

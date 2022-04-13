@@ -2,6 +2,7 @@
     @include btn-form;
     @include shadowbox;
         &:hover{
-            background: linear-gradient(-10deg, $primary, $secondary);        }
+            background: linear-gradient(-10deg, $primary, $secondary);       
+         }
 }
 

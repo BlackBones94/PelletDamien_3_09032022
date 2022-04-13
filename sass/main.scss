@@ -1,21 +1,21 @@
 // ABSTRACTS
-@import 'abstracts/keyframes';
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+@import '.abstracts/keyframes';
+@import '.abstracts/variables';
+@import '.abstracts/mixins';
 // BASE
-@import 'base/reset';
-@import 'base/typography';
+@import '.base/reset';
+@import '.base/typography';
 //COMPONENTs
-@import 'components/animations';
-@import 'components/buttons';
-@import 'components/cards';
+@import '.components/animations';
+@import '.components/buttons';
+@import '.components/cards';
 // LAYOUT
-@import 'layout/footer';
-@import 'layout/header';
-@import  'layout/section';
+@import '.layout/footer';
+@import '.layout/header';
+@import  '.layout/section';
 // PAGES
-@import 'pages/home';
-@import 'pages/menu';
+@import '.pages/home';
+@import '.pages/menu';
 
 // media
 @include media-tall;
